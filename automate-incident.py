@@ -3,7 +3,7 @@ import sys
 
 def create_incident(name, status, body, impact_override, client_id, product_id, damage):
     url = "https://api.statuspage.io/v1/pages/srf6g2y5xrnc/incidents"
-    authorization_token = "OAuth d0a2c12f14664f679a9249a05a104b59"
+    authorization_token = "OAuth " #Adicionar Token após espaço
 
     data = {
         "incident[name]": name,

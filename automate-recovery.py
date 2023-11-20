@@ -2,7 +2,7 @@ import requests
 import sys
 
 
-authorization_token = "OAuth d0a2c12f14664f679a9249a05a104b59"
+authorization_token = "OAuth " #Adicionar Token após espaço
 
 list_url = "https://api.statuspage.io/v1/pages/srf6g2y5xrnc/incidents"
 
